@@ -1,0 +1,10 @@
+"ord()" function  converts character to int   
+"chr()" function  converts int to character
+
+"int()" function converts string to int
+
+e.g
+	myvar=int(input("Enter number"))
+		here "int()" function is required because "input()" always returns string. Even if user enters number , it is treated as a string by default.
+
+swapcase() function of string which toggles the invoking string

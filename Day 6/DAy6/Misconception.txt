@@ -1,0 +1,11 @@
+import First
+	vs
+from First import disp1
+
+you get some performance advantage with the second statement. This is not correct. In either case python will compile and execute the entire module.
+The only advantage you get with the second statement is that you can access disp1() function directly. E.g.
+
+	disp1()
+
+and with the first statement you must say:
+First.disp1()

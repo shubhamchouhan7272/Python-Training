@@ -1,0 +1,8 @@
+# globals is a dictionary which keeps the track of references and their respective objects
+
+a=100
+b=True
+c="Hello"
+d=4.5
+
+print(globals()) 

@@ -1,0 +1,65 @@
+# Example of Dictionary, key - value pair, key must be unique
+
+mydict = { 1:'Rahul',2:'Sachin',3:'Ajinkya',1:'Rohit'}
+
+print(mydict)
+print(type(mydict))
+
+# display all the keys
+print(mydict.keys())
+# display all the values
+print(mydict.values())
+
+# retrieve a value based on a particular key
+print(mydict[2])
+# or
+print(mydict.get(2))
+
+-------------------------------------
+## Adding elements in Dictionary :
+
+(1) Using Assignment:
+	my_dict = {'a': 1, 'b': 2}
+	my_dict['c'] = 3  # Adding a new key 'c' with value 3
+
+(2) Using the update() Method:
+	The update() method can be used to add multiple key-value pairs to a dictionary. It takes another dictionary, an iterable of key-value pairs, or keyword arguments as its argument.
+	my_dict = {'a': 1, 'b': 2}
+	my_dict.update({'c': 3, 'd': 4})  # Adding keys 'c' and 'd' with values 3 and 4
+
+
+-------------------------------------------
+## Removing elements ina Dictionary :
+
+(1) Using del Keyword:
+	The del keyword can be used to remove a key-value pair from a dictionary.
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	del my_dict['b']  # Removing the key 'b'
+ 
+(2) Using the pop() Method:
+	The pop() method removes a specified key and returns its corresponding value. If the key is not found, it raises a KeyError.
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	popped_value = my_dict.pop('b')  # Removing the key 'b'
+
+(3) Using the popitem() Method:
+	The popitem() method removes and returns the last key-value pair from the dictionary. This method is useful when you want to remove an arbitrary item.
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	popped_item = my_dict.popitem()  # Removing the last key-value pair
+
+(4) Using the clear() Method:
+	The clear() method removes all key-value pairs from the dictionary, leaving an empty dictionary.
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	my_dict.clear()  # Removing all key-value pairs
+
+---------------------------------------------------------
+## Updating elements in Dictionary :
+
+(1) Using Assignment:
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	my_dict['b'] = 5  # Updating the value associated with key 'b' to 5
+
+(2) Using the update() Method:
+	my_dict = {'a': 1, 'b': 2, 'c': 3}
+	my_dict.update({'b': 5, 'c': 7})  # Updating values for keys 'b' and 'c'
+
+

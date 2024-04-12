@@ -1,0 +1,6 @@
+if you say "run code" on VSCode, it will not run.
+
+but go to command prompt and say 
+
+python First.txt
+	it will run the program.

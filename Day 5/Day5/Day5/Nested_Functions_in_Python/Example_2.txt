@@ -1,0 +1,10 @@
+def outer():
+    def inner():
+        print("inside inner function")
+    print("inside outer function")
+    return inner
+
+var1=outer()
+var1()
+
+# place the breakpoint at both the print statements,debug and check the call stack

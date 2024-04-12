@@ -1,0 +1,1 @@
+decorator is a function which accepts another function as an argument , modifies it and returns.
