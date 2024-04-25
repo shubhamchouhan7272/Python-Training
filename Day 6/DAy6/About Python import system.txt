@@ -1,3 +1,0 @@
-Python's import system has two conceptual objects called "finder" and "loader".
-
-finder's job is to locate a module and loader's job is to load the module.

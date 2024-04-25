@@ -1,3 +1,0 @@
-var1= 5 +8j
-print(var1)
-print(type(var1))

@@ -1,9 +1,0 @@
-# Example of tupple
-
-## tuples in Python are immutable.Once a tuple is created, its elements cannot be modified, added, or removed. The immutability of tuples means that their size and content remain fixed throughout their lifetime.
-
-## tuples in Python are ordered. 
-
-mytupple= (10,20,30,40,20)
-print(mytupple)
-print(type(mytupple))

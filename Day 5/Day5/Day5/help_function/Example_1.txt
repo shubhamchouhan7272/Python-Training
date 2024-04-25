@@ -1,4 +1,0 @@
-print("hello")
-help(print)
-help(int)
-help(object)
